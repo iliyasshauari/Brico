@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55b595"
+    tools:context=".Menu">
+    <Button
+        android:id="@+id/AjInt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="#55b595"
+        android:layout_marginLeft="50dp"
+        android:text="Ajouter  Inetrvention"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/AjCat"
+        android:layout_width="300dp"
+        android:background="#55b595"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AjInt"
+        android:layout_marginTop="50dp"
+        android:text="Ajouter Catégorie"
+        android:layout_centerHorizontal="true"
+
+        />
+    <Button
+        android:id="@+id/LiInt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#55b595"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/AjCat"
+        android:text="Lister les Inetrventions"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/LiCat"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#55b595"
+        android:layout_below="@id/LiInt"
+        android:layout_marginTop="50dp"
+        android:text="Lister les Catégories"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

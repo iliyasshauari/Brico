@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55b595"
+    tools:context=".AjoutInt">
+
+    <EditText
+        android:id="@+id/idInt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Intervention Id"
+        />
+    <EditText
+        android:id="@+id/nCli"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idInt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="Client Name"
+        />
+    <EditText
+        android:id="@+id/mobCli"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nCli"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="Client phone "
+        android:inputType="phone"
+        />
+    <EditText
+        android:id="@+id/titreI"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobCli"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="Intervention Title"
+        />
+
+    <EditText
+        android:id="@+id/dateI"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titreI"
+        android:layout_centerHorizontal="true"
+        android:hint="Intervention Date"
+        android:layout_marginTop="30dp"
+        android:inputType="date"
+        />
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/dateI"
+        android:hint="Intervention Description"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#55b595"
+        android:layout_below="@+id/desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Done?" />
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#55b595"
+        android:layout_below="@+id/switch1"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        />
+
+
+</RelativeLayout>
